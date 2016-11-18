@@ -1,8 +1,84 @@
 \chapter{Use Cases}
 
+Use case diagrams demonstrate how different users will interact with our system. In our case, a verbal user will be able to speak to the mobile device, and the nonverbal user will be able to formulate a statement and use the device to speak.
+
 \begin{figure}[htb]
 \centering
 \includegraphics[width=\textwidth]{UseCases.png}
 \caption{Use Cases}
 \label{fig:useCases}
 \end{figure}
+
+\begin{enumerate}
+	\item Speak
+	\begin{itemize}
+   		\item \textbf{Goal:} Ask a question for mobile device to record and process
+		\item \textbf{Actors:} Verbal User
+		\item \textbf{Pre-conditions:} 
+		\begin{enumerate}
+			\item Application must be open on device
+		\end{enumerate}
+		\item \textbf{Steps:}
+		\begin{enumerate}
+			\item Nonverbal user opens application
+			\item Nonverbal user presses button to record voice
+			\item Verbal user speaks and device records
+			\item Device translates audio to text and sends to server
+		\end{enumerate}
+		\item \textbf{Post-conditions:}
+		\begin{enumerate}
+			\item None
+		\end{enumerate}
+		\item \textbf{Exceptions:}
+		\begin{itemize}
+			\item Application must have device permission to use microphone
+		\end{enumerate}
+	\end{itemize}
+	\item Formulate Statement on Device
+	\begin{itemize}
+   		\item \textbf{Goal:} Create a statement to respond to or initiate with the verbal user
+		\item \textbf{Actors:} Nonverbal User
+		\item \textbf{Pre-conditions:}
+		\begin{enumerate}
+			\item Application must be open on device
+		\end{enumerate}
+		\item \textbf{Steps:}
+		\begin{enumerate}
+			\item Open application
+			\item Uses keyboard or picture card to add a word
+			\item Add words until statement is complete
+		\end{enumerate}
+		\item \textbf{Post-conditions:}
+		\begin{enumerate}
+			\item Application displays fully formatted statement
+		\end{enumerate}
+		\item \textbf{Exceptions:}
+		\begin{itemize}
+			\item None
+		\end{enumerate}
+	\end{itemize}
+	\item Prompt Device to Speak
+	\begin{itemize}
+   		\item \textbf{Goal:} Speak the statement that has been formulated by user
+		\item \textbf{Actors:} Nonverbal User
+		\item \textbf{Pre-conditions:}
+		\begin{enumerate}
+			\item Statement must be fully or partially made on device
+		\end{enumerate}
+		\item \textbf{Steps:}
+		\begin{enumerate}
+			\item Open application
+			\item Formulate a statement (if necessary)
+			\item Press the speak button
+		\end{enumerate}
+		\item \textbf{Post-conditions:}
+		\begin{enumerate}
+			\item Device will speak the statement
+		\end{enumerate}
+		\item \textbf{Exceptions:}
+		\begin{itemize}
+			\item Application must have device permission to use speaker
+			\item Device volume must be on or nothing will be heard
+		\end{enumerate}
+	\end{itemize}
+\end{enumerate}
