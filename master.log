@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 NOV 2016 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 NOV 2016 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -76,12 +76,10 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux)
-(./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux
-
-LaTeX Warning: Label `fig:ui' multiply defined.
-
-) (./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
-(./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux))
+(./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
+(./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
+(./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)
+(./developmentTimeline.aux))
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -511,31 +509,56 @@ Chapter 11.
 
 
 
-]) [19] (./master.aux (./abstract.aux) (./introduction.aux)
-(./requirements.aux) (./usecases.aux) (./activitydiagram.aux)
-(./conceptualmodel.aux) (./architecturaldiagram.aux) (./technologies.aux)
-(./designrationale.aux) (./testplan.aux) (./riskanalysis.aux)
-(./ethicalanalysis.aux))
+]) [19]
+\openout2 = `developmentTimeline.aux'.
 
-LaTeX Warning: There were multiply-defined labels.
+ (./developmentTimeline.tex
+Chapter 12.
+<fallQuarter.png, id=93, 727.518pt x 544.434pt>
+File: fallQuarter.png Graphic file (type png)
+ <use fallQuarter.png>
+Package pdftex.def Info: fallQuarter.png used on input line 6.
+(pdftex.def)             Requested size: 433.62003pt x 324.50299pt.
 
- ) 
+<winterQuarter.png, id=94, 824.3598pt x 549.7338pt>
+File: winterQuarter.png Graphic file (type png)
+ <use winterQuarter.png>
+Package pdftex.def Info: winterQuarter.png used on input line 13.
+(pdftex.def)             Requested size: 433.62003pt x 289.16818pt.
+
+<springQuarter.png, id=95, 748.7172pt x 548.2884pt>
+File: springQuarter.png Graphic file (type png)
+ <use springQuarter.png>
+Package pdftex.def Info: springQuarter.png used on input line 20.
+(pdftex.def)             Requested size: 433.62003pt x 317.54735pt.
+)
+[20
+
+
+
+] [21 <./fallQuarter.png>] [22 <./winterQuarter.png>] [23 <./springQuarter.png>
+] (./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux)
+(./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
+(./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
+(./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)
+(./developmentTimeline.aux)) ) 
 Here is how much of TeX's memory you used:
- 1727 strings out of 493014
- 25439 string characters out of 6133351
- 94330 words of memory out of 5000000
- 5179 multiletter control sequences out of 15000+600000
+ 1754 strings out of 493014
+ 26002 string characters out of 6133351
+ 94666 words of memory out of 5000000
+ 5196 multiletter control sequences out of 15000+600000
  5765 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,23p,1135b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on master.pdf (24 pages, 374246 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb>
+Output written on master.pdf (28 pages, 783260 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
