@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 NOV 2016 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 NOV 2016 13:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -75,11 +75,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux)
-(./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
-(./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
-(./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)
-(./developmentTimeline.aux))
+(./master.aux)
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -243,11 +239,18 @@ Package pdftex.def Info: ActivityDiagram.png used on input line 7.
 
 (./conceptualmodel.tex
 Chapter 5.
+
+LaTeX Warning: Reference `fig:ui' on page 10 undefined on input line 3.
+
 <iPadLandscape.png, id=56, 1027.84pt x 770.88pt>
 File: iPadLandscape.png Graphic file (type png)
  <use iPadLandscape.png>
 Package pdftex.def Info: iPadLandscape.png used on input line 7.
 (pdftex.def)             Requested size: 433.62003pt x 325.2142pt.
+
+
+LaTeX Warning: Reference `fig:uiDynamic' on page 10 undefined on input line 12.
+
 
 [10
 
@@ -266,6 +269,9 @@ Package pdftex.def Info: iPadLandscapeDynamic.png used on input line 16.
 
 (./architecturaldiagram.tex
 Chapter 6.
+
+LaTeX Warning: Reference `fig:arch' on page 12 undefined on input line 3.
+
 <arch.png, id=66, 753.81625pt x 524.96124pt>
 File: arch.png Graphic file (type png)
  <use arch.png>
@@ -308,6 +314,10 @@ Chapter 9.
 
  (./riskanalysis.tex
 Chapter 10.
+
+LaTeX Warning: Reference `tab:riskAnalysis' on page 18 undefined on input line 
+3.
+
 
 Overfull \hbox (6.68018pt too wide) in paragraph at lines 9--9
 []\OT1/cmr/bx/n/10 Probability| 
@@ -514,6 +524,18 @@ Chapter 11.
 
  (./developmentTimeline.tex
 Chapter 12.
+
+LaTeX Warning: Reference `fig:fallQuarter' on page 22 undefined on input line 2
+.
+
+
+LaTeX Warning: Reference `fig:winterQuarter' on page 22 undefined on input line
+ 2.
+
+
+LaTeX Warning: Reference `fig:springQuarter' on page 22 undefined on input line
+ 2.
+
 <fallQuarter.png, id=100, 727.518pt x 544.434pt>
 File: fallQuarter.png Graphic file (type png)
  <use fallQuarter.png>
@@ -541,21 +563,27 @@ Package pdftex.def Info: springQuarter.png used on input line 20.
 (./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
 (./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
 (./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)
-(./developmentTimeline.aux)) ) 
+(./developmentTimeline.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1754 strings out of 493014
- 26002 string characters out of 6133351
- 94669 words of memory out of 5000000
- 5196 multiletter control sequences out of 15000+600000
+ 1715 strings out of 493014
+ 25320 string characters out of 6133351
+ 90305 words of memory out of 5000000
+ 5183 multiletter control sequences out of 15000+600000
  5765 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,23p,1135b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on master.pdf (30 pages, 785468 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on master.pdf (30 pages, 782397 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
