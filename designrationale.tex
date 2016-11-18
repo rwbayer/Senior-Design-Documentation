@@ -1,1 +1,11 @@
 \chapter{Design Rationale}
+
+We are leveraging a client-server model in order to minimize impact on the client mobile devices. In our model, a client will collect audial data and translate it into text to send to the server. The server will use NLP tools such as Google?s Cloud Natural Language API to process the text and generate suggested responses to send back to the device as a JSON object. Having the server do the processing will minimize the use of the device?s battery life, and will also decrease the disk space our app will require to be stored on the device. 
+
+We are using iPads and other iOS devices for our testing because that is what our partners, the Hope Technology School, primarily uses in their classroom. This will eliminate the need for us to buy iPads for beta testers to use; saving money, time, and scheduling complexity.
+
+Making use of the existing APIs like TensorFlow and Cloud Natural Language allows us to avoid re-inventing the wheel, and focus on how those tools can be used to fulfill our purpose. 
+
+We will develop the application in XCode, using the Swift and Objective-C languages because they are the designated languages compatible with iOS to make applications. We will use Python to design the web server because we have experience using Google App Engine to make web servers specifically in Python and the APIs are well documented for the language.
+
+Finally, we will use a relational database like SQLite and MySQL to store conversation data for the user. The data will be stored privately on the user?s device and not in our servers because it is less vulnerable to attacks and will make minimal size impact in modern mobile devices.

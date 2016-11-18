@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 NOV 2016 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 NOV 2016 20:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -40,12 +40,47 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \c@@departmentcount=\count90
 \c@@itemcount=\count91
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux)
-(./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
-(./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
+(./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux
+
+LaTeX Warning: Label `fig:ui' multiply defined.
+
+) (./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
 (./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux))
 \openout1 = `master.aux'.
 
@@ -61,18 +96,80 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count93
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen106
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 24.
- [1
+
+[1
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
 \openout2 = `abstract.aux'.
 
- (./abstract.tex
-[3
+ (./abstract.tex [3
 
 ]) (./master.toc)
 \tf@toc=\write3
@@ -90,7 +187,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 \openout2 = `introduction.aux'.
 
- (./introduction.tex
+
+(./introduction.tex
 Chapter 1.
 [1
 
@@ -101,61 +199,100 @@ Chapter 1.
 
  (./requirements.tex
 Chapter 2.
-) [3
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+ [3
 
 
 
-]
+]) [4]
 \openout2 = `usecases.aux'.
 
- (./usecases.tex
+
+(./usecases.tex
 Chapter 3.
-) [4
-
-
-
-]
-\openout2 = `activitydiagram.aux'.
-
- (./activitydiagram.tex
-Chapter 4.
+<UseCases.png, id=35, 1706.375pt x 1384.17125pt>
+File: UseCases.png Graphic file (type png)
+ <use UseCases.png>
+Package pdftex.def Info: UseCases.png used on input line 5.
+(pdftex.def)             Requested size: 433.62003pt x 351.74457pt.
 ) [5
 
 
 
-]
-\openout2 = `conceptualmodel.aux'.
+ <./UseCases.png>]
+\openout2 = `activitydiagram.aux'.
 
- (./conceptualmodel.tex
-Chapter 5.
+ (./activitydiagram.tex
+Chapter 4.
+<ActivityDiagram.png, id=41, 644.4075pt x 584.1825pt>
+File: ActivityDiagram.png Graphic file (type png)
+
+<use ActivityDiagram.png>
+Package pdftex.def Info: ActivityDiagram.png used on input line 7.
+(pdftex.def)             Requested size: 433.62003pt x 393.1117pt.
 ) [6
 
 
 
-]
+] [7 <./ActivityDiagram.png>]
+\openout2 = `conceptualmodel.aux'.
+
+
+(./conceptualmodel.tex
+Chapter 5.
+<iPadLandscape.png, id=49, 1027.84pt x 770.88pt>
+File: iPadLandscape.png Graphic file (type png)
+ <use iPadLandscape.png>
+Package pdftex.def Info: iPadLandscape.png used on input line 7.
+(pdftex.def)             Requested size: 433.62003pt x 325.2142pt.
+
+[8
+
+
+
+ <./iPadLandscape.png>]
+<iPadLandscapeDynamic.png, id=55, 1027.84pt x 770.88pt>
+File: iPadLandscapeDynamic.png Graphic file (type png)
+
+<use iPadLandscapeDynamic.png>
+Package pdftex.def Info: iPadLandscapeDynamic.png used on input line 16.
+(pdftex.def)             Requested size: 433.62003pt x 325.2142pt.
+) [9 <./iPadLandscapeDynamic.png>]
 \openout2 = `architecturaldiagram.aux'.
 
- (./architecturaldiagram.tex
+
+(./architecturaldiagram.tex
 Chapter 6.
-) [7
+<arch.png, id=60, 753.81625pt x 524.96124pt>
+File: arch.png Graphic file (type png)
+ <use arch.png>
+Package pdftex.def Info: arch.png used on input line 7.
+(pdftex.def)             Requested size: 433.62003pt x 301.97052pt.
+) [10
 
 
 
-]
+ <./arch.png>]
+[11]
 \openout2 = `technologies.aux'.
 
  (./technologies.tex
 Chapter 7.
-) [8
+[12
 
 
 
-]
+]) [13]
 \openout2 = `designrationale.aux'.
 
  (./designrationale.tex
 Chapter 8.
-) [9
+) [14
 
 
 
@@ -164,7 +301,7 @@ Chapter 8.
 
  (./testplan.tex
 Chapter 9.
-) [10
+) [15
 
 
 
@@ -173,39 +310,232 @@ Chapter 9.
 
  (./riskanalysis.tex
 Chapter 10.
-) [11
+
+Overfull \hbox (6.68018pt too wide) in paragraph at lines 9--9
+[]\OT1/cmr/bx/n/10 Probability| 
+ []
+
+
+Overfull \hbox (0.99281pt too wide) in paragraph at lines 9--9
+[]\OT1/cmr/bx/n/10 Severity| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]\OT1/cmr/m/n/10 Team mem-
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 11--11
+\OT1/cmr/m/n/10 ber(s) will not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]\OT1/cmr/m/n/10 Insufficient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 De-vel-op-ment
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 and may not
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 be fin-ished on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10 De-vel-op-ment
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 18--18
+\OT1/cmr/m/n/10 and may not
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 18--18
+\OT1/cmr/m/n/10 be fin-ished on
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 20--21
+[]\OT1/cmr/m/n/10 Use on-line tu-to-ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]\OT1/cmr/m/n/10 Revisit past
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]\OT1/cmr/m/n/10 Team Co-or-di-
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 24--24
+[]\OT1/cmr/m/n/10 The team will
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 24--24
+\OT1/cmr/m/n/10 not fin-ish the
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 24--24
+\OT1/cmr/m/n/10 project or cer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 sched-ule of due
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/10 Follow De-vel-op-
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/10 Hold team mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\OT1/cmr/m/n/10 bers ac-count-able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]\OT1/cmr/m/n/10 Requirements
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 are In-cor-rectly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]\OT1/cmr/m/n/10 Extra time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 gath-er-ing re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 quire-ments.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 Cus-tomer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 doesn't agree
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 with the end
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\OT1/cmr/m/n/10 Meticulously de-
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 34--35
+\OT1/cmr/m/n/10 sure on the right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]\OT1/cmr/m/n/10 The sys-tem
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 37--37
+\OT1/cmr/m/n/10 server to host
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\OT1/cmr/m/n/10 ar-chi-tec-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+[]\OT1/cmr/m/n/10 Research other
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\OT1/cmr/m/n/10 host-ing strate-gies
+ []
+
+
+Overfull \hbox (18.38055pt too wide) in paragraph at lines 7--50
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 7.78104pt on input line 52.
+
+) [16
 
 
 
-]
+] [17]
 \openout2 = `ethicalanalysis.aux'.
 
  (./ethicalanalysis.tex
 Chapter 11.
-) [12
+[18
 
 
 
-] (./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux) (./u
-secases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
-(./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
-(./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)) ) 
+]) [19] (./master.aux (./abstract.aux) (./introduction.aux)
+(./requirements.aux) (./usecases.aux) (./activitydiagram.aux)
+(./conceptualmodel.aux) (./architecturaldiagram.aux) (./technologies.aux)
+(./designrationale.aux) (./testplan.aux) (./riskanalysis.aux)
+(./ethicalanalysis.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 423 strings out of 493014
- 5595 string characters out of 6133351
- 60202 words of memory out of 5000000
- 3949 multiletter control sequences out of 15000+600000
- 5467 words of font info for 20 fonts, out of 8000000 for 9000
+ 1727 strings out of 493014
+ 25439 string characters out of 6133351
+ 94330 words of memory out of 5000000
+ 5179 multiletter control sequences out of 15000+600000
+ 5765 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,19p,820b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on master.pdf (17 pages, 66598 bytes).
+ 37i,10n,23p,1135b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on master.pdf (24 pages, 374246 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,1 +1,52 @@
 \chapter{Risk Analysis}
+
+Table~\ref{tab:riskAnalysis}, shown below, depicts the risks and consequences involved in completing the system. The table also includes probability of the risk involved along with a severity ranking between 1 and 10. The probability and severity are then multiplied to receive an impact measurement. For each risk, there are at least two mitigation strategies that are included to avoid the issue. 
+
+\begin{table}
+\centering
+\begin{tabular}{|p{7em}|p{7em}|p{5em}|p{4em}|p{4em}|p{11em}|}
+\hline
+\textbf{Risk} & \textbf{Consequences} & \textbf{Probability} & \textbf{Severity} & \textbf{Impact} & \textbf{Mitigation Strategies} \\
+\hline
+Illness & Team member(s) will not be able to work on project for a period of time. & .5 & 4 & 2 & \begin{enumerate}
+	\item Get a lot of sleep.
+	\item Stay hydrated.
+\end{enumerate} \\
+\hline
+Insufficient Development Knowledge & The system will not be adequate and may not be finished on time. & .4 & 5 & 2 & Get a lot of sleep and stay hydrated. \\
+\hline
+Insufficient Web Development Knowledge & The system will not be adequate and may not be finished on time. & .4 & 5 & 2 & 
+\begin{enumerate}
+	\item Use online tutorials.
+	\item Revisit past notes/projects.
+\end{enumerate} \\
+\hline
+Team Coordination Failure & The team will not finish the project or certain aspects of the projects in time. & .15 & 8 & 1.2 & 
+\begin{enumerate}
+	\item Keep an organized schedule of due dates.
+	\item Follow Development Timeline.
+	\item Hold team members accountable for what they need to get done.
+\end{enumerate} \\
+\hline
+Requirements are Incorrectly Communicated & Extra time gathering requirements. Customer doesn't agree with the end system. & .1 & 8 & .8 & 
+ \begin{enumerate}
+	\item Meticulously develop requirements with customer.
+	\item Regularly hold update meetings with customer to make sure on the right path.
+\end{enumerate}\\
+\hline
+Server Failure & The system will not have a server to host the client-server architecture and will therefore fail. & .02 & 10 & .2 & 
+ \begin{enumerate}
+	\item Research other hosting strategies in case of DC server failure.
+	\item Use local resources for backup storage and processing.
+\end{enumerate} \\
+\hline
+File Loss & Lost work up to the date of the file loss. & .01 & 10 & .1 & 
+ \begin{enumerate}
+	\item Use github to manage source code and versioning.
+	\item Update project tree after every development session.
+\end{enumerate} \\
+\hline
+\end{tabular}
+\caption{Risk Analysis Table}
+\label{tab:riskAnalysis}
+\end{table}
