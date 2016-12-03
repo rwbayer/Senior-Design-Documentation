@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 NOV 2016 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 DEC 2016 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -545,7 +545,7 @@ Package pdftex.def Info: springQuarter.png used on input line 20.
 Here is how much of TeX's memory you used:
  1754 strings out of 493014
  26002 string characters out of 6133351
- 94669 words of memory out of 5000000
+ 94675 words of memory out of 5000000
  5196 multiletter control sequences out of 15000+600000
  5765 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -555,7 +555,7 @@ ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb>
-Output written on master.pdf (30 pages, 784432 bytes).
+Output written on master.pdf (30 pages, 783886 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
