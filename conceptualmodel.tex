@@ -4,18 +4,27 @@ Users will navigate to our application on an iPad tablet in order to use the sys
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=\textwidth]{iPadLandscape.png}
-\caption{Mockup of text-entry user interface}
+\includegraphics[width=\textwidth]{initialInterface.png}
+\caption{Initial Interface on Application Launch}
 \label{fig:ui}
 \end{figure}
 
-As they continue to type, the suggestions will adjust dynamically to both their input and any verbal feedback from the environment. The app will listen for audible speech, process the speech and prioritize the suggestions displayed to the user.  The system will first look for previous personal responses from the user to this or similar questions. After, it will display possible global responses from our database. In this way, previous personal responses will be prioritized above the global responses. This will be reflected in the application's interface as shown in Figure~\ref{fig:uiDynamic}.
+Upon saying the nonverbal user's name, which is programmed into the application on the first launch, or by clicking the listen button, the system will bring up the listening interface, shown in Figure~\ref{fig:listening}, and begin processing verbal input.
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=\textwidth]{iPadLandscapeDynamic.png}
-\caption{Mockup demonstrating the dynamic nature of suggestions}
+\includegraphics[width=\textwidth]{listeningInterface.png}
+\caption{The Listening Interface}
+\label{fig:listening}
+\end{figure}
+
+When the verbal user is done speaking, the app will finish processing the verbal input and decide which pre-populated category of picture cards to display above the keyboard. Figure~\ref{fig:uiDynamic} shows how the app would adjust if the verbal user said "How do you feel?". 
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\textwidth]{dynamicInterface.png}
+\caption{Demonstration of the Picture Cards adjusting to Dynamic Verbal Input}
 \label{fig:uiDynamic}
 \end{figure}
 
-Whenever the user has completed either typing or selecting what they want to communicate, they will press the button on the right of the screen, which will speak what they have selected aloud. If the user then wants to clear the selection, they can use the clear button on the left of the speak button. This will allow the user to restart the process.
+At any point during the communication process, the nonverbal user can either press one of the picture cards to immediately speak the word or phrase beneath the card, or press the button on the right of the screen, which will speak what they have typed into the input box aloud.
