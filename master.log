@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 DEC 2016 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 MAY 2017 19:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -79,7 +79,37 @@ Package: parskip 2001/04/09 non-zero parskip adjustments
 (./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
 (./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
 (./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)
-(./developmentTimeline.aux))
+(./developmentTimeline.aux) (./lessonsLearned.aux
+
+LaTeX Warning: Label `fig:fallQuarter' multiply defined.
+
+
+LaTeX Warning: Label `fig:winterQuarter' multiply defined.
+
+
+LaTeX Warning: Label `fig:springQuarter' multiply defined.
+
+) (./userManual.aux
+
+LaTeX Warning: Label `fig:fallQuarter' multiply defined.
+
+
+LaTeX Warning: Label `fig:winterQuarter' multiply defined.
+
+
+LaTeX Warning: Label `fig:springQuarter' multiply defined.
+
+) (./installGuide.aux
+
+LaTeX Warning: Label `fig:fallQuarter' multiply defined.
+
+
+LaTeX Warning: Label `fig:winterQuarter' multiply defined.
+
+
+LaTeX Warning: Label `fig:springQuarter' multiply defined.
+
+))
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -94,8 +124,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
-
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
 \scratchdimen=\dimen105
@@ -227,23 +256,29 @@ Package pdftex.def Info: UseCases.png used on input line 7.
 
  (./activitydiagram.tex
 Chapter 4.
-<ActivityDiagram.png, id=47, 644.4075pt x 584.1825pt>
-File: ActivityDiagram.png Graphic file (type png)
+<verbalActivityDiagram.png, id=47, 664.4825pt x 248.93pt>
+File: verbalActivityDiagram.png Graphic file (type png)
 
-<use ActivityDiagram.png>
-Package pdftex.def Info: ActivityDiagram.png used on input line 7.
-(pdftex.def)             Requested size: 433.62003pt x 393.1117pt.
+<use verbalActivityDiagram.png>
+Package pdftex.def Info: verbalActivityDiagram.png used on input line 7.
+(pdftex.def)             Requested size: 433.62003pt x 162.44449pt.
+
+<nonVerbalActivityDiagram.png, id=48, 699.61375pt x 270.00874pt>
+File: nonVerbalActivityDiagram.png Graphic file (type png)
+
+<use nonVerbalActivityDiagram.png>
+Package pdftex.def Info: nonVerbalActivityDiagram.png used on input line 14.
+(pdftex.def)             Requested size: 433.62003pt x 167.35423pt.
 ) [8
 
 
 
-] [9 <./ActivityDiagram.png>]
+ <./verbalActivityDiagram.png>] [9 <./nonVerbalActivityDiagram.png>]
 \openout2 = `conceptualmodel.aux'.
 
-
-(./conceptualmodel.tex
+ (./conceptualmodel.tex
 Chapter 5.
-<iPadLandscape.png, id=56, 1027.84pt x 770.88pt>
+<iPadLandscape.png, id=58, 1027.84pt x 770.88pt>
 File: iPadLandscape.png Graphic file (type png)
  <use iPadLandscape.png>
 Package pdftex.def Info: iPadLandscape.png used on input line 7.
@@ -254,7 +289,7 @@ Package pdftex.def Info: iPadLandscape.png used on input line 7.
 
 
  <./iPadLandscape.png>]
-<iPadLandscapeDynamic.png, id=61, 1027.84pt x 770.88pt>
+<iPadLandscapeDynamic.png, id=63, 1027.84pt x 770.88pt>
 File: iPadLandscapeDynamic.png Graphic file (type png)
 
 <use iPadLandscapeDynamic.png>
@@ -266,7 +301,7 @@ Package pdftex.def Info: iPadLandscapeDynamic.png used on input line 16.
 
 (./architecturaldiagram.tex
 Chapter 6.
-<arch.png, id=66, 753.81625pt x 524.96124pt>
+<arch.png, id=68, 753.81625pt x 524.96124pt>
 File: arch.png Graphic file (type png)
  <use arch.png>
 Package pdftex.def Info: arch.png used on input line 7.
@@ -514,19 +549,19 @@ Chapter 11.
 
  (./developmentTimeline.tex
 Chapter 12.
-<fallQuarter.png, id=100, 727.518pt x 544.434pt>
+<fallQuarter.png, id=102, 727.518pt x 544.434pt>
 File: fallQuarter.png Graphic file (type png)
  <use fallQuarter.png>
 Package pdftex.def Info: fallQuarter.png used on input line 6.
 (pdftex.def)             Requested size: 433.62003pt x 324.50299pt.
 
-<winterQuarter.png, id=101, 824.3598pt x 549.7338pt>
+<winterQuarter.png, id=103, 824.3598pt x 549.7338pt>
 File: winterQuarter.png Graphic file (type png)
  <use winterQuarter.png>
 Package pdftex.def Info: winterQuarter.png used on input line 13.
 (pdftex.def)             Requested size: 433.62003pt x 289.16818pt.
 
-<springQuarter.png, id=102, 748.7172pt x 548.2884pt>
+<springQuarter.png, id=104, 748.7172pt x 548.2884pt>
 File: springQuarter.png Graphic file (type png)
  <use springQuarter.png>
 Package pdftex.def Info: springQuarter.png used on input line 20.
@@ -537,28 +572,98 @@ Package pdftex.def Info: springQuarter.png used on input line 20.
 
 
 ] [23 <./fallQuarter.png>] [24 <./winterQuarter.png>] [25 <./springQuarter.png>
-] (./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux)
-(./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
-(./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
-(./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)
-(./developmentTimeline.aux)) ) 
+]
+\openout2 = `lessonsLearned.aux'.
+
+ (./lessonsLearned.tex
+Chapter 13.
+File: fallQuarter.png Graphic file (type png)
+<use fallQuarter.png>
+Package pdftex.def Info: fallQuarter.png used on input line 6.
+(pdftex.def)             Requested size: 433.62003pt x 324.50299pt.
+File: winterQuarter.png Graphic file (type png)
+ <use winterQuarter.png>
+Package pdftex.def Info: winterQuarter.png used on input line 13.
+(pdftex.def)             Requested size: 433.62003pt x 289.16818pt.
+File: springQuarter.png Graphic file (type png)
+ <use springQuarter.png>
+Package pdftex.def Info: springQuarter.png used on input line 20.
+(pdftex.def)             Requested size: 433.62003pt x 317.54735pt.
+) [26
+
+
+
+]
+[27] [28] [29]
+\openout2 = `userManual.aux'.
+
+ (./userManual.tex
+Chapter 14.
+File: fallQuarter.png Graphic file (type png)
+<use fallQuarter.png>
+Package pdftex.def Info: fallQuarter.png used on input line 6.
+(pdftex.def)             Requested size: 433.62003pt x 324.50299pt.
+File: winterQuarter.png Graphic file (type png)
+ <use winterQuarter.png>
+Package pdftex.def Info: winterQuarter.png used on input line 13.
+(pdftex.def)             Requested size: 433.62003pt x 289.16818pt.
+File: springQuarter.png Graphic file (type png)
+ <use springQuarter.png>
+Package pdftex.def Info: springQuarter.png used on input line 20.
+(pdftex.def)             Requested size: 433.62003pt x 317.54735pt.
+) [30
+
+
+
+]
+[31] [32] [33]
+\openout2 = `installGuide.aux'.
+
+ (./installGuide.tex
+Chapter 15.
+File: fallQuarter.png Graphic file (type png)
+<use fallQuarter.png>
+Package pdftex.def Info: fallQuarter.png used on input line 6.
+(pdftex.def)             Requested size: 433.62003pt x 324.50299pt.
+File: winterQuarter.png Graphic file (type png)
+ <use winterQuarter.png>
+Package pdftex.def Info: winterQuarter.png used on input line 13.
+(pdftex.def)             Requested size: 433.62003pt x 289.16818pt.
+File: springQuarter.png Graphic file (type png)
+ <use springQuarter.png>
+Package pdftex.def Info: springQuarter.png used on input line 20.
+(pdftex.def)             Requested size: 433.62003pt x 317.54735pt.
+) [34
+
+
+
+]
+[35] [36] [37] (./master.aux (./abstract.aux) (./introduction.aux)
+(./requirements.aux) (./usecases.aux) (./activitydiagram.aux)
+(./conceptualmodel.aux) (./architecturaldiagram.aux) (./technologies.aux)
+(./designrationale.aux) (./testplan.aux) (./riskanalysis.aux)
+(./ethicalanalysis.aux) (./developmentTimeline.aux) (./lessonsLearned.aux)
+(./userManual.aux) (./installGuide.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1754 strings out of 493014
- 26002 string characters out of 6133351
- 94675 words of memory out of 5000000
- 5196 multiletter control sequences out of 15000+600000
+ 1785 strings out of 493014
+ 26635 string characters out of 6133351
+ 95701 words of memory out of 5000000
+ 5205 multiletter control sequences out of 15000+600000
  5765 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,23p,1135b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on master.pdf (30 pages, 783886 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on master.pdf (42 pages, 803319 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 176 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,3 +13,6 @@
 \contentsline {chapter}{\numberline {10}Risk Analysis}{18}
 \contentsline {chapter}{\numberline {11}Ethical Analysis}{20}
 \contentsline {chapter}{\numberline {12}Development Timeline}{22}
+\contentsline {chapter}{\numberline {13}Lessons Learned}{26}
+\contentsline {chapter}{\numberline {14}User Manual}{30}
+\contentsline {chapter}{\numberline {15}Install Guide}{34}
