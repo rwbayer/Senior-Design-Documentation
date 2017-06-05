@@ -1,4 +1,4 @@
-\chapter{Design Rationale}
+\chapter{Design Rationale}\label{designRationale}
 
 We are leveraging a client-server model in order to minimize impact on the client mobile devices. In our model, a client will collect audial data and translate it into text using Nuance Developers SDK and send the text to the server. The server will use NLP tools such as Google's Cloud Natural Language API to process the text and generate suggested classification responses to send back to the device as a JSON object. Having the server do the processing will minimize the use of the device's battery life, and will also decrease the disk space our app will require to be stored on the device. 
 

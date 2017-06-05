@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 JUN 2017 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 JUN 2017 15:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -189,11 +189,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2016/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(./master.aux (./abstract.aux) (./introduction.aux) (./requirements.aux)
-(./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
-(./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
-(./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)
-(./developmentTimeline.aux) (./userManual.aux) (./lessonsLearned.aux))
+(./master.aux (./abstract.aux) (./introduction.aux) (./stateOfField.aux)
+(./requirements.aux) (./usecases.aux) (./activitydiagram.aux)
+(./conceptualmodel.aux) (./architecturaldiagram.aux) (./technologies.aux)
+(./designrationale.aux) (./testplan.aux) (./riskanalysis.aux)
+(./ethicalanalysis.aux) (./developmentTimeline.aux) (./userManual.aux)
+(./lessonsLearned.aux))
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -253,6 +254,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
+
+(./master.out) (./master.out)
 \@outlinefile=\write3
 \openout3 = `master.out'.
 
@@ -260,34 +263,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 25.
+ [1
 
-[1
 
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 \openout2 = `abstract.aux'.
 
  (./abstract.tex [3
 
-])
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+]) (./master.toc)
 \tf@toc=\write4
 \openout4 = `master.toc'.
 
-[4
+ [4
 
 
 ]
-
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
-
+(./master.lof)
 \tf@lof=\write5
 \openout5 = `master.lof'.
 
-[5
+ [5
 
 ]
 \openout2 = `introduction.aux'.
@@ -303,85 +299,504 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]) [2]
+\openout2 = `stateOfField.aux'.
+
+ (./stateOfField.tex
+Chapter 2.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+
+LaTeX Warning: Citation `jayagopi' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `sumi' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `rich' on page 3 undefined on input line 8.
+
+
+LaTeX Warning: Citation `sumi' on page 3 undefined on input line 8.
+
+[3
+
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 14.
+
+
+LaTeX Warning: Citation `moore' on page 4 undefined on input line 14.
+
+
+LaTeX Warning: Citation `goldsmith' on page 4 undefined on input line 15.
+
+
+LaTeX Warning: Citation `riechmann' on page 4 undefined on input line 16.
+
+
+LaTeX Warning: Citation `slater' on page 4 undefined on input line 20.
+
+
+LaTeX Warning: Citation `moore' on page 4 undefined on input line 21.
+
+
+LaTeX Warning: Citation `goldsmith' on page 4 undefined on input line 22.
+
+
+LaTeX Warning: Citation `hetzroni' on page 4 undefined on input line 23.
+
+
+LaTeX Warning: Citation `stiehl' on page 4 undefined on input line 31.
+
+[4]
+
+LaTeX Warning: Citation `rashdan' on page 5 undefined on input line 34.
+
+
+LaTeX Warning: Citation `lookInMyEyes' on page 5 undefined on input line 39.
+
+<lookInMyEyes.png, id=210, 325.72394pt x 488.58592pt>
+File: lookInMyEyes.png Graphic file (type png)
+ <use lookInMyEyes.png>
+Package pdftex.def Info: lookInMyEyes.png used on input line 43.
+(pdftex.def)             Requested size: 260.17465pt x 390.26538pt.
+
+
+LaTeX Warning: Citation `communicateEasy' on page 5 undefined on input line 48.
+
+
+<communicateEasy.jpg, id=212, 481.8pt x 352.31625pt>
+File: communicateEasy.jpg Graphic file (type jpg)
+ <use communicateEasy.jpg>
+Package pdftex.def Info: communicateEasy.jpg used on input line 53.
+(pdftex.def)             Requested size: 303.53268pt x 221.96577pt.
+
+[5]
+
+LaTeX Warning: Citation `keeble' on page 6 undefined on input line 58.
+
+[6 <./lookInMyEyes.png>] <keeble.png, id=227, 558.085pt x 231.86626pt>
+File: keeble.png Graphic file (type png)
+
+<use keeble.png>
+Package pdftex.def Info: keeble.png used on input line 64.
+(pdftex.def)             Requested size: 433.62003pt x 180.16148pt.
+
+
+LaTeX Warning: Citation `speakAll' on page 7 undefined on input line 71.
+
+<speakAll.png, id=230, 481.8pt x 361.35pt>
+File: speakAll.png Graphic file (type png)
+ <use speakAll.png>
+Package pdftex.def Info: speakAll.png used on input line 75.
+(pdftex.def)             Requested size: 303.53268pt x 227.65721pt.
+ [7 <./communicateEasy.jpg> <./keeble.png>]
+
+LaTeX Warning: Citation `proloquo' on page 8 undefined on input line 80.
+
+<proloquo2go.png, id=238, 442.65375pt x 332.24126pt>
+File: proloquo2go.png Graphic file (type png)
+ <use proloquo2go.png>
+Package pdftex.def Info: proloquo2go.png used on input line 84.
+(pdftex.def)             Requested size: 260.17465pt x 195.2906pt.
+)
+[8 <./speakAll.png> <./proloquo2go.png>]
 \openout2 = `requirements.aux'.
 
  (./requirements.tex
-Chapter 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
+Chapter 3.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
- [3
+[9
 
 
 
-]) [4]
+]) [10]
 \openout2 = `usecases.aux'.
 
-
-(./usecases.tex
-Chapter 3.
-<UseCases.png, id=60, 1706.375pt x 1384.17125pt>
+ (./usecases.tex
+Chapter 4.
+<UseCases.png, id=254, 1706.375pt x 1384.17125pt>
 File: UseCases.png Graphic file (type png)
  <use UseCases.png>
 Package pdftex.def Info: UseCases.png used on input line 7.
 (pdftex.def)             Requested size: 433.62003pt x 351.74457pt.
- [5
+ [11
 
 
 
- <./UseCases.png>] [6]) [7]
+ <./UseCases.png>] [12]) [13]
 \openout2 = `activitydiagram.aux'.
 
  (./activitydiagram.tex
-Chapter 4.
-<verbalActivityDiagram.png, id=100, 664.4825pt x 248.93pt>
+Chapter 5.
+<verbalActivityDiagram.png, id=292, 664.4825pt x 248.93pt>
 File: verbalActivityDiagram.png Graphic file (type png)
 
 <use verbalActivityDiagram.png>
 Package pdftex.def Info: verbalActivityDiagram.png used on input line 7.
 (pdftex.def)             Requested size: 433.62003pt x 162.44449pt.
 
-<nonVerbalActivityDiagram.png, id=101, 699.61375pt x 270.00874pt>
+<nonVerbalActivityDiagram.png, id=293, 699.61375pt x 270.00874pt>
 File: nonVerbalActivityDiagram.png Graphic file (type png)
 
 <use nonVerbalActivityDiagram.png>
 Package pdftex.def Info: nonVerbalActivityDiagram.png used on input line 14.
 (pdftex.def)             Requested size: 433.62003pt x 167.35423pt.
-) [8
+) [14
 
 
 
- <./verbalActivityDiagram.png>] [9 <./nonVerbalActivityDiagram.png>]
+ <./verbalActivityDiagram.png>] [15 <./nonVerbalActivityDiagram.png>]
 \openout2 = `conceptualmodel.aux'.
 
  (./conceptualmodel.tex
-Chapter 5.
-Runaway argument?
-{\@firstoffive }\fi , which they can immediately start using to type \ETC.
-./conceptualmodel.tex:4: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.4 
-    
-? 
-./conceptualmodel.tex:4: Emergency stop.
-<to be read again> 
-                   \par 
-l.4 
-    
-End of file on the terminal!
+Chapter 6.
+<initialInterface.png, id=306, 1027.84pt x 770.88pt>
+File: initialInterface.png Graphic file (type png)
 
- 
+<use initialInterface.png>
+Package pdftex.def Info: initialInterface.png used on input line 7.
+(pdftex.def)             Requested size: 433.62003pt x 325.2142pt.
+ [16
+
+
+
+ <./initialInterface.png>]
+<listeningInterface.png, id=312, 1027.84pt x 770.88pt>
+File: listeningInterface.png Graphic file (type png)
+
+<use listeningInterface.png>
+Package pdftex.def Info: listeningInterface.png used on input line 16.
+(pdftex.def)             Requested size: 433.62003pt x 325.2142pt.
+
+<dynamicInterface.png, id=314, 1027.84pt x 770.88pt>
+File: dynamicInterface.png Graphic file (type png)
+
+<use dynamicInterface.png>
+Package pdftex.def Info: dynamicInterface.png used on input line 25.
+(pdftex.def)             Requested size: 433.62003pt x 325.2142pt.
+) [17 <./listeningInterface.png>] [18 <./dynamicInterface.png>]
+\openout2 = `architecturaldiagram.aux'.
+
+ (./architecturaldiagram.tex
+Chapter 7.
+<arch.png, id=324, 753.81625pt x 524.96124pt>
+File: arch.png Graphic file (type png)
+ <use arch.png>
+Package pdftex.def Info: arch.png used on input line 7.
+(pdftex.def)             Requested size: 433.62003pt x 301.97052pt.
+) [19
+
+
+
+ <./arch.png>] [20]
+\openout2 = `technologies.aux'.
+
+ (./technologies.tex
+Chapter 8.
+[21
+
+
+
+]) [22]
+\openout2 = `designrationale.aux'.
+
+ (./designrationale.tex
+Chapter 9.
+) [23
+
+
+
+]
+\openout2 = `testplan.aux'.
+
+ (./testplan.tex
+Chapter 10.
+) [24
+
+
+
+]
+\openout2 = `riskanalysis.aux'.
+
+ (./riskanalysis.tex
+Chapter 11.
+
+Overfull \hbox (6.68018pt too wide) in paragraph at lines 9--9
+[]\OT1/cmr/bx/n/10 Probability| 
+ []
+
+
+Overfull \hbox (0.99281pt too wide) in paragraph at lines 9--9
+[]\OT1/cmr/bx/n/10 Severity| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+[]\OT1/cmr/m/n/10 Team mem-
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 11--11
+\OT1/cmr/m/n/10 ber(s) will not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]\OT1/cmr/m/n/10 Insufficient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 De-vel-op-ment
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 and may not
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 16--16
+\OT1/cmr/m/n/10 be fin-ished on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10 De-vel-op-ment
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 18--18
+\OT1/cmr/m/n/10 and may not
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 18--18
+\OT1/cmr/m/n/10 be fin-ished on
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 20--21
+[]\OT1/cmr/m/n/10 Use on-line tu-to-ri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]\OT1/cmr/m/n/10 Revisit past
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]\OT1/cmr/m/n/10 Team Co-or-di-
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 24--24
+[]\OT1/cmr/m/n/10 The team will
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 24--24
+\OT1/cmr/m/n/10 not fin-ish the
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 24--24
+\OT1/cmr/m/n/10 project or cer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+\OT1/cmr/m/n/10 sched-ule of due
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/10 Follow De-vel-op-
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/10 Hold team mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+\OT1/cmr/m/n/10 bers ac-count-able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]\OT1/cmr/m/n/10 Requirements
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 are In-cor-rectly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]\OT1/cmr/m/n/10 Extra time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 gath-er-ing re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 quire-ments.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 Cus-tomer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 doesn't agree
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 31--31
+\OT1/cmr/m/n/10 with the end
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\OT1/cmr/m/n/10 Meticulously de-
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 34--35
+\OT1/cmr/m/n/10 sure on the right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]\OT1/cmr/m/n/10 The sys-tem
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 37--37
+\OT1/cmr/m/n/10 server to host
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\OT1/cmr/m/n/10 ar-chi-tec-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+[]\OT1/cmr/m/n/10 Research other
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\OT1/cmr/m/n/10 host-ing strate-gies
+ []
+
+
+Overfull \hbox (18.38055pt too wide) in paragraph at lines 7--50
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 7.78104pt on input line 52.
+
+) [25
+
+
+
+] [26]
+\openout2 = `ethicalanalysis.aux'.
+
+ (./ethicalanalysis.tex
+Chapter 12.
+[27
+
+
+
+]) [28]
+\openout2 = `developmentTimeline.aux'.
+
+ (./developmentTimeline.tex
+Chapter 13.
+) [29
+
+
+
+]
+\openout2 = `userManual.aux'.
+
+ (./userManual.tex
+Chapter 14.
+[30
+
+
+
+]) [31]
+\openout2 = `lessonsLearned.aux'.
+
+ (./lessonsLearned.tex
+Chapter 15.
+) [32
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+ (./master.aux (./abstract.aux) (./introduction.aux) (./stateOfField.aux) (./re
+quirements.aux) (./usecases.aux) (./activitydiagram.aux)
+(./conceptualmodel.aux) (./architecturaldiagram.aux) (./technologies.aux)
+(./designrationale.aux) (./testplan.aux) (./riskanalysis.aux)
+(./ethicalanalysis.aux) (./developmentTimeline.aux) (./userManual.aux)
+(./lessonsLearned.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package rerunfilecheck Info: File `master.out' has not changed.
+(rerunfilecheck)             Checksum: 92F36FE2CA6692D077DF54E313925D09;1483.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+ ) 
 Here is how much of TeX's memory you used:
- 5311 strings out of 493014
- 79394 string characters out of 6133351
- 167006 words of memory out of 5000000
- 8720 multiletter control sequences out of 15000+600000
- 7588 words of font info for 27 fonts, out of 8000000 for 9000
+ 5568 strings out of 493014
+ 82872 string characters out of 6133351
+ 176548 words of memory out of 5000000
+ 8811 multiletter control sequences out of 15000+600000
+ 8616 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,30p,1068b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
-./conceptualmodel.tex:4:  ==> Fatal error occurred, no output PDF file produced
-!
+ 29i,10n,30p,1235b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on master.pdf (37 pages, 1271096 bytes).
+PDF statistics:
+ 486 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+

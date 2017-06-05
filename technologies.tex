@@ -1,5 +1,7 @@
 \chapter{Technologies Used}
 
+Our system utilized the following technologies. Many of the technologies used were mandatory for the environment we were developing our application for (Apple iPads). The reasoning behind choosing these technologies can be found in Chapter~\ref{designRationale}.
+
 \begin{itemize}
     \item Hardware
     \begin{itemize}
@@ -38,14 +40,23 @@
 	\end{itemize}
  \item SDKs
      \begin{itemize}
-		\item Nuance Developer's SDK\footnote[1]{\url{https://developer.nuance.com/public/Help/DragonMobileSDKReference_iOS/index.html}}
+		\item Nuance Developer's SpeechKit2 SDK\footnote[1]{\url{https://developer.nuance.com/public/Help/DragonMobileSDKReference_iOS/index.html}}
+		\begin{itemize}
+		\item Nuance Developer's SDK is included in our application distribution and supports Automatic Speech Recognition, Text-to-Speech, and Audio Playback. We chose Nuance Developer's SDK for our speech recognition and speech-to-text translation because of the speed and accuracy of their results, clear error messages, and online developer support. We experimented with using Nuance's Text-to-Speech in our application as well because it would allow us to customize the voice to the user's preference, but this feature was not a priority and was never completed. We also experimented with the SDK's Natural Language Understanding (NLU) product, which is currently in beta, but found the results to be unreliable and ineffective when compared to the other APIs we were testing.
+		\end{itemize}
 	\end{itemize}
     \item APIs
      \begin{itemize}
 		\item Google's Cloud Natural Language API\footnote[2]{\url{https://cloud.google.com/natural-language/}}
+		\begin{itemize}
+		\item Google's Cloud Natural Language API supplies analysis of text input using machine learning. Specifically, this API provides the ability to analyze entities, sentiment, and intent of the text provided to the endpoint. It utilizes the same underlying technology that Google uses in both its search engine and its personal assistant. We used this API for content classification in order to decide which picture cards to display to the nonverbal user. We chose this API after testing several because it gave the most consistent and accurate results.
+		\end{itemize}
 	\end{itemize}
     \item Database
      \begin{itemize}
    	 	\item Google's Cloud Datastore\footnote[3]{\url{https://cloud.google.com/datastore/}}
+		\begin{itemize}
+			\item Google Cloud Datastore is a NoSQL database for web and mobile applications. We chose to use Cloud Datastore as our database solution because of its simple integration with Google App Engine.
+		\end{itemize}
 	\end{itemize}
 \end{itemize}
