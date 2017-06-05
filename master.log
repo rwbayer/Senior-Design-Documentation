@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 MAY 2017 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 JUN 2017 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -79,8 +79,7 @@ Package: parskip 2001/04/09 non-zero parskip adjustments
 (./usecases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
 (./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
 (./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)
-(./developmentTimeline.aux) (./lessonsLearned.aux) (./userManual.aux)
-(./installGuide.aux))
+(./developmentTimeline.aux) (./userManual.aux) (./lessonsLearned.aux))
 \openout1 = `master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -536,28 +535,19 @@ Chapter 12.
 
 
 ]
-\openout2 = `lessonsLearned.aux'.
-
- (./lessonsLearned.tex
-Chapter 13.
-) [24
-
-
-
-]
 \openout2 = `userManual.aux'.
 
  (./userManual.tex
+Chapter 13.
+[24
+
+
+
+]) [25]
+\openout2 = `lessonsLearned.aux'.
+
+ (./lessonsLearned.tex
 Chapter 14.
-) [25
-
-
-
-]
-\openout2 = `installGuide.aux'.
-
- (./installGuide.tex
-Chapter 15.
 ) [26
 
 
@@ -566,25 +556,24 @@ Chapter 15.
 secases.aux) (./activitydiagram.aux) (./conceptualmodel.aux)
 (./architecturaldiagram.aux) (./technologies.aux) (./designrationale.aux)
 (./testplan.aux) (./riskanalysis.aux) (./ethicalanalysis.aux)
-(./developmentTimeline.aux) (./lessonsLearned.aux) (./userManual.aux)
-(./installGuide.aux)) ) 
+(./developmentTimeline.aux) (./userManual.aux) (./lessonsLearned.aux)) ) 
 Here is how much of TeX's memory you used:
- 1786 strings out of 493014
- 26534 string characters out of 6133351
- 95646 words of memory out of 5000000
- 5202 multiletter control sequences out of 15000+600000
- 7588 words of font info for 27 fonts, out of 8000000 for 9000
+ 1780 strings out of 493014
+ 26434 string characters out of 6133351
+ 95317 words of memory out of 5000000
+ 5203 multiletter control sequences out of 15000+600000
+ 8193 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,23p,1135b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb>
-Output written on master.pdf (31 pages, 498442 bytes).
+</usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on master.pdf (31 pages, 499372 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream

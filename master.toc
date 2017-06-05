@@ -13,8 +13,9 @@
 \contentsline {chapter}{\numberline {10}Risk Analysis}{19}
 \contentsline {chapter}{\numberline {11}Ethical Analysis}{21}
 \contentsline {chapter}{\numberline {12}Development Timeline}{23}
-\contentsline {chapter}{\numberline {13}Lessons Learned}{24}
-\contentsline {chapter}{\numberline {14}User Manual}{25}
-\contentsline {chapter}{\numberline {15}Install Guide}{26}
-\contentsline {section}{\numberline {15.1}Server Setup}{26}
-\contentsline {section}{\numberline {15.2}iPad Application Installation}{26}
+\contentsline {chapter}{\numberline {13}User Manual}{24}
+\contentsline {section}{\numberline {13.1}Installation}{24}
+\contentsline {subsection}{\numberline {13.1.1}Server Setup}{24}
+\contentsline {subsection}{\numberline {13.1.2}iPad Application Installation}{24}
+\contentsline {section}{\numberline {13.2}Normal Use}{24}
+\contentsline {chapter}{\numberline {14}Conclusions \& Future Work}{26}
