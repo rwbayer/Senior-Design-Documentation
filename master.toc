@@ -32,4 +32,7 @@
 \contentsline {subsection}{\numberline {14.1.1}Server Setup}{30}{subsection.14.1.1}
 \contentsline {subsection}{\numberline {14.1.2}iPad Application Installation}{30}{subsection.14.1.2}
 \contentsline {section}{\numberline {14.2}Normal Use}{30}{section.14.2}
-\contentsline {chapter}{\numberline {15}Conclusions \& Future Work}{32}{chapter.15}
+\contentsline {chapter}{\numberline {15}Conclusion}{32}{chapter.15}
+\contentsline {section}{\numberline {15.1}Results}{32}{section.15.1}
+\contentsline {section}{\numberline {15.2}Lessons Learned}{33}{section.15.2}
+\contentsline {section}{\numberline {15.3}Future Work}{34}{section.15.3}
