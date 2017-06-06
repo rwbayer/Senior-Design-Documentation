@@ -1,13 +1,13 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}State of the Field}{3}{chapter.2}
-\contentsline {subsection}{\numberline {2.0.1}Related Research}{3}{subsection.2.0.1}
+\contentsline {section}{\numberline {2.1}Related Research}{3}{section.2.1}
 \contentsline {subsubsection}{Nonverbal Human Communication Research}{3}{section*.3}
 \contentsline {subsubsection}{Human-Computer Interaction Research}{4}{section*.4}
 \contentsline {subsubsection}{Autistic Children Education Research}{4}{section*.5}
-\contentsline {subsection}{\numberline {2.0.2}Related Patents}{4}{subsection.2.0.2}
+\contentsline {section}{\numberline {2.2}Related Patents}{4}{section.2.2}
 \contentsline {subsubsection}{Interactive systems employing robotic companions (Granted)}{5}{section*.6}
 \contentsline {subsubsection}{Method and system for communication using a portable device (Pending)}{5}{section*.7}
-\contentsline {subsection}{\numberline {2.0.3}Existing Applications}{5}{subsection.2.0.3}
+\contentsline {section}{\numberline {2.3}Existing Applications}{5}{section.2.3}
 \contentsline {subsubsection}{Look in My Eyes: Steam Train}{5}{section*.8}
 \contentsline {subsubsection}{Communicate Easy}{5}{section*.9}
 \contentsline {subsubsection}{Keeble}{6}{section*.10}
